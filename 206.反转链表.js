@@ -45,7 +45,7 @@ var reverseList = function (head) {
   for (let i = 0; i < arr.length - 1; i++) {
     arr[i].next = arr[i + 1];
   }
-  arr[arr.length - 1].nex = null;   // 单独设置尾节点指向null
+  arr[arr.length - 1].next = null;   // 单独设置尾节点指向null
   return arr[0];
 };
 
@@ -69,3 +69,6 @@ var reverseList = function (head) {
 
 // @lc code=end
 
+
+
+ 
